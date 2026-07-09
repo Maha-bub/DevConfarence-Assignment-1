@@ -202,10 +202,10 @@ section div h6 {
 }
 
 section div p {
-    font-size: 44px;
+    font-size: 14px;
     color: black;
     font-family: Inter;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .team {
@@ -222,7 +222,7 @@ section div p {
 }
 
 .card-header-pro  {
-    line-height: 1px;
+    line-height: 5px;
     color: white;
 }
 .card-header-pro ul li {
@@ -253,4 +253,99 @@ section div p {
 .pro button {
     background: #3B82F6;
     color: #ffffff;
+}
+
+
+/* CTA Section style from AI prompt */
+.cta-section{
+    padding: 50px 0;
+}
+
+.cta-container{
+    width: 1260px;
+    margin: 40px auto;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #4F46E5, #7C3AED);
+    padding: 80px 60px;
+    text-align: center;
+    color: #fff;
+}
+
+.cta-content h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.cta-content p{
+    width: 700px;
+    margin: 0 auto 40px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: rgba(255,255,255,0.9);
+}
+
+.cta-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.btn-secondary{
+    display: inline-block;
+    padding: 15px 35px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+
+
+.btn-primary:hover{
+    transform: translateY(-3px);
+}
+
+.btn-secondary{
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.btn-secondary:hover{
+    background: #fff;
+    color: #4F46E5;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #0D1B2A;
+}
+.social-icons img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+.footer-left{
+    width: 60%;
+}
+.footer-left p{
+    color: #fff;
+    font-family: inter;
+    font-size: 14px;
+}   
+
+.footer-right ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 20px;
+    
+}
+.footer-right ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
 }
