@@ -126,11 +126,13 @@ header div p {
     background-color: #fff;
     border: 1px solid #e5e5e5;
 }
-section{
+
+section {
     margin-top: 80px;
 }
-section img{
-    border-radius:10px 10px 0 0;
+
+section img {
+    border-radius: 10px 10px 0 0;
     object-fit: cover;
 }
 
@@ -152,9 +154,33 @@ section div h3 {
     font-family: Inter;
 }
 
-section div p {
-    font-size: 14px;
-    color: #666;
-    font-family: Inter;
+.section-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 10px;
+}
 
+.pricing-section {
+    max-width: 1260px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 50px auto;
+    padding: 0 20px;
+    line-height: 20px;
+
+}
+
+.price-card {
+    margin: 10px;
+    padding: 30px;
+    border: 2px solid #e5e5e5;
+    border-radius: 12px;
+
+}
+
+.pro {
+    background: #0D1B2A;
 }
