@@ -179,6 +179,7 @@ section span {
     line-height: 20px;
 
 }
+
 .card-header {
     line-height: 1px;
     color: black;
@@ -211,32 +212,45 @@ section div p {
     background: #F3F4F6;
     color: black;
 }
-.pro{
+
+.pro {
     background: #0D1B2A;
     color: white;
 }
-.card-header-pro {
+.pro span {
+    color: #3B82F6;
+}
+
+.card-header-pro  {
     line-height: 1px;
     color: white;
 }
-#pro{
+.card-header-pro ul li {
+    line-height: 22px;
+}
+#pro {
     color: white;
 }
 
-
-.price-card button{
-    width:100%;
-    padding:14px;
-    margin-top:20px;
-    border:1px solid #3B82F6;
-    border-radius:8px;
-    background:#ffffff;
-    color:#3B82F6;
-    font-size:16px;
-    cursor:pointer;
+.list-items {
+    list-style-type: disc;
+    line-height: 22px;
+    
 }
 
-.pro button{
-    background:#3B82F6;
-    color:#ffffff;
+.price-card button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: 1px solid #3B82F6;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #3B82F6;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pro button {
+    background: #3B82F6;
+    color: #ffffff;
 }
