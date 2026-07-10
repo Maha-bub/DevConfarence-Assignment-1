@@ -6,7 +6,6 @@ body {
 
 .inter-<uniquifier> {
     font-family: "Inter";
-
 }
 
 /* navigation section styles */
@@ -53,14 +52,13 @@ nav ul {
 nav ul li {
     margin-left: 20px;
     list-style-type: none;
-    font-size: 18px;
 }
 
 nav ul li a {
     text-decoration: none;
     gap: 24px;
     color: black;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* navigation section styles ends */
@@ -193,7 +191,7 @@ section span {
     font-weight: 800;
 }
 
-.price-pro{
+.price-pro {
     font-size: 40px;
     color: white;
     font-family: Inter;
@@ -221,6 +219,7 @@ section span {
     font-size: 16px;
     cursor: pointer;
 }
+
 section div h6 {
     font-size: 12px;
     color: #6B7280;
@@ -251,7 +250,8 @@ section div p {
     color: #3B82F6;
 }
 
-.card-header-pro,.card-header {
+.card-header-pro,
+.card-header {
     line-height: 5px;
     color: white;
 }
@@ -349,7 +349,7 @@ footer div {
 }
 
 .footer-left {
-    width:40%;
+    width: 40%;
 }
 
 .footer-left p {
