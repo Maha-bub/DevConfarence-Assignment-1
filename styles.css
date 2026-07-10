@@ -11,12 +11,12 @@ body {
 /* navigation section styles */
 .nav {
     display: flex;
-    margin: 0;
+    margin: 0 auto;
     padding: 10px;
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    width: 100%;
+    width: 98%;
 }
 
 nav img {
@@ -50,7 +50,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin:20px; auto;
     list-style-type: none;
 }
 
@@ -334,40 +334,53 @@ section div p {
     color: #4F46E5;
 }
 
-footer div {
+/* footer section styles */
+
+footer {
+    background: #0D1B2A;
+    margin:0 auto;
+    padding: 40px 60px;
+}
+
+.footer-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 60px;
-    background: #0D1B2A;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: auto;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
 }
 
 .social-icons img {
     width: 30px;
     height: 30px;
-    margin-right: 15px;
 }
 
-.footer-left {
-    width: 40%;
+
+.footer-buttom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.footer-left p {
+.footer-buttom-copyright p {
     color: #fff;
-    font-family: inter;
     font-size: 14px;
 }
 
-.footer-right.footer-right ul {
+.footer-buttom-right {
     display: flex;
-    list-style-type: none;
-    padding: 0;
-    gap: 15px;
-
+    gap: 20px;
 }
-
-.footer-right ul li a {
-    text-decoration: none;
+.footer-buttom-right li a {
     color: #fff;
+    text-decoration: none;
     font-size: 14px;
 }
